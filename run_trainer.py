@@ -16,7 +16,7 @@ from model import SimpleSirenCNN  # 你老的CNN
 # from model import PannsCNN14  # (你可以稍后切换到这个)
 
 from trainer import train_model, evaluate_model
-
+from model import PannsCNN14
 
 def main():
     wandb.init(
@@ -106,8 +106,8 @@ def main():
     print(f"Validation data loaded: {len(val_dataset)} samples")
 
     # 4. 初始化模型
-    model = SimpleSirenCNN(num_classes=2).to(config.device)
-
+    # model = SimpleSirenCNN(num_classes=2).to(config.device)
+    model = PannsCNN14(num_classes=2).to(config.device)
     # 5. 初始化损失函数 (使用我们刚刚计算的权重)
     criterion = nn.CrossEntropyLoss(weight=weights)
 

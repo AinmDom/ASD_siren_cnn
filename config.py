@@ -17,7 +17,7 @@ HOP_LENGTH = 512
 
 # --- 3. 训练参数 (不变) ---
 BATCH_SIZE = 32
-EPOCHS = 20
+EPOCHS = 5
 LEARNING_RATE = 0.001
 # (FSD50K 已经划分好了 dev/eval，我们不再需要 'folds')
 

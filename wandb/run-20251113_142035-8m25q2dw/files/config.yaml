@@ -1,0 +1,51 @@
+_wandb:
+    value:
+        cli_version: 0.22.3
+        e:
+            ugkf8ddv9ip48vxnbbzbh4hedmeqkolz:
+                codePath: run_trainer.py
+                codePathLocal: run_trainer.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "353341796352"
+                        used: "235152232448"
+                email: luyoung76@gmail.com
+                executable: D:\Anaconda\envs\audio_cnn\python.exe
+                host: ILL2
+                memory:
+                    total: "16312639488"
+                os: Windows-10-10.0.22631-SP0
+                program: D:\PycharmProjects\ASD_siren_cnn\run_trainer.py
+                python: CPython 3.10.19
+                root: D:\PycharmProjects\ASD_siren_cnn
+                startedAt: "2025-11-13T06:20:35.409930Z"
+                writerId: ugkf8ddv9ip48vxnbbzbh4hedmeqkolz
+        m: []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 16
+            "4": 3.10.19
+            "5": 0.22.3
+            "8":
+                - 3
+            "12": 0.22.3
+            "13": windows-amd64
+batch_size:
+    value: 32
+epochs:
+    value: 20
+learning_rate:
+    value: 0.001
+n_mels:
+    value: 64
